@@ -10,21 +10,21 @@ export default function Skills() {
     },
     {
       title: "Databases & Storage",
-      icon: <Database className="h-5 w-5 text-emerald-600" />,
+      icon: <Database className="h-5 w-5" style={{ color: "var(--skill-teal)" }} />,
       skills: ["MySQL", "PostgreSQL", "Snowflake", "Delta Lake"],
-      colorClass: "skill-tag-emerald"
+      colorClass: "skill-tag-teal"
     },
     {
       title: "Visualization Tools",
-      icon: <BarChart3 className="h-5 w-5 text-purple-600" />,
+      icon: <BarChart3 className="h-5 w-5" style={{ color: "var(--skill-purple)" }} />,
       skills: ["Tableau", "Power BI", "AWS QuickSight"],
       colorClass: "skill-tag-purple"
     },
     {
       title: "Cloud & Tools",
-      icon: <Cloud className="h-5 w-5 text-amber-600" />,
+      icon: <Cloud className="h-5 w-5" style={{ color: "var(--skill-orange)" }} />,
       skills: ["AWS", "Microsoft Azure", "Terraform", "Git", "Docker"],
-      colorClass: "skill-tag-amber"
+      colorClass: "skill-tag-orange"
     }
   ];
 
@@ -57,7 +57,7 @@ export default function Skills() {
           <div className="mt-12 text-center">
             <div className="bg-card rounded-xl p-6 shadow-md inline-block">
               <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center justify-center">
-                <Award className="h-5 w-5 text-green-600 mr-2" />
+                <Award className="h-5 w-5 mr-2" style={{ color: "var(--skill-green)" }} />
                 Certifications
               </h3>
               <span className="skill-tag-green px-4 py-2 rounded-full text-sm font-medium">

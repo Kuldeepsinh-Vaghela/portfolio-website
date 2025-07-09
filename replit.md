@@ -7,6 +7,7 @@ This is a full-stack portfolio website built with React, TypeScript, and Express
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Color scheme: Light grey theme with complementary colors (blue, teal, purple, orange, green).
 
 ## System Architecture
 

@@ -3,79 +3,79 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(0, 0%, 100%);
-  --foreground: hsl(20, 14.3%, 4.1%);
-  --muted: hsl(60, 4.8%, 95.9%);
-  --muted-foreground: hsl(25, 5.3%, 44.7%);
-  --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(20, 14.3%, 4.1%);
-  --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(20, 14.3%, 4.1%);
-  --border: hsl(20, 5.9%, 90%);
-  --input: hsl(20, 5.9%, 90%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(60, 4.8%, 95.9%);
-  --secondary-foreground: hsl(24, 9.8%, 10%);
-  --accent: hsl(60, 4.8%, 95.9%);
-  --accent-foreground: hsl(24, 9.8%, 10%);
+  --background: hsl(0, 0%, 96%);
+  --foreground: hsl(220, 10%, 15%);
+  --muted: hsl(220, 10%, 90%);
+  --muted-foreground: hsl(220, 8%, 45%);
+  --popover: hsl(0, 0%, 98%);
+  --popover-foreground: hsl(220, 10%, 15%);
+  --card: hsl(0, 0%, 98%);
+  --card-foreground: hsl(220, 10%, 15%);
+  --border: hsl(220, 10%, 85%);
+  --input: hsl(220, 10%, 85%);
+  --primary: hsl(210, 80%, 50%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(220, 10%, 88%);
+  --secondary-foreground: hsl(220, 10%, 15%);
+  --accent: hsl(220, 10%, 88%);
+  --accent-foreground: hsl(220, 10%, 15%);
   --destructive: hsl(0, 84.2%, 60.2%);
-  --destructive-foreground: hsl(60, 9.1%, 97.8%);
-  --ring: hsl(20, 14.3%, 4.1%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(210, 80%, 50%);
   --radius: 0.5rem;
   
   /* Custom portfolio colors */
-  --hero-gradient-from: hsl(207, 90%, 97%);
-  --hero-gradient-to: hsl(220, 70%, 95%);
-  --section-bg: hsl(210, 40%, 98%);
-  --skill-blue: hsl(207, 90%, 54%);
-  --skill-blue-light: hsl(207, 90%, 94%);
-  --skill-emerald: hsl(160, 84%, 39%);
-  --skill-emerald-light: hsl(160, 84%, 94%);
-  --skill-purple: hsl(262, 83%, 58%);
-  --skill-purple-light: hsl(262, 83%, 94%);
-  --skill-amber: hsl(43, 96%, 56%);
-  --skill-amber-light: hsl(43, 96%, 94%);
-  --skill-green: hsl(142, 71%, 45%);
-  --skill-green-light: hsl(142, 71%, 94%);
+  --hero-gradient-from: hsl(220, 15%, 94%);
+  --hero-gradient-to: hsl(210, 20%, 90%);
+  --section-bg: hsl(220, 10%, 93%);
+  --skill-blue: hsl(210, 80%, 50%);
+  --skill-blue-light: hsl(210, 80%, 92%);
+  --skill-teal: hsl(180, 70%, 40%);
+  --skill-teal-light: hsl(180, 70%, 90%);
+  --skill-purple: hsl(260, 70%, 50%);
+  --skill-purple-light: hsl(260, 70%, 90%);
+  --skill-orange: hsl(30, 80%, 55%);
+  --skill-orange-light: hsl(30, 80%, 90%);
+  --skill-green: hsl(140, 70%, 45%);
+  --skill-green-light: hsl(140, 70%, 90%);
 }
 
 .dark {
-  --background: hsl(240, 10%, 3.9%);
-  --foreground: hsl(0, 0%, 98%);
-  --muted: hsl(240, 3.7%, 15.9%);
-  --muted-foreground: hsl(240, 5%, 64.9%);
-  --popover: hsl(240, 10%, 3.9%);
-  --popover-foreground: hsl(0, 0%, 98%);
-  --card: hsl(240, 10%, 3.9%);
-  --card-foreground: hsl(0, 0%, 98%);
-  --border: hsl(240, 3.7%, 15.9%);
-  --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(240, 3.7%, 15.9%);
-  --secondary-foreground: hsl(0, 0%, 98%);
-  --accent: hsl(240, 3.7%, 15.9%);
-  --accent-foreground: hsl(0, 0%, 98%);
+  --background: hsl(220, 15%, 8%);
+  --foreground: hsl(0, 0%, 95%);
+  --muted: hsl(220, 10%, 18%);
+  --muted-foreground: hsl(220, 8%, 65%);
+  --popover: hsl(220, 15%, 12%);
+  --popover-foreground: hsl(0, 0%, 95%);
+  --card: hsl(220, 15%, 12%);
+  --card-foreground: hsl(0, 0%, 95%);
+  --border: hsl(220, 10%, 22%);
+  --input: hsl(220, 10%, 22%);
+  --primary: hsl(210, 80%, 60%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(220, 10%, 18%);
+  --secondary-foreground: hsl(0, 0%, 95%);
+  --accent: hsl(220, 10%, 18%);
+  --accent-foreground: hsl(0, 0%, 95%);
   --destructive: hsl(0, 62.8%, 30.6%);
   --destructive-foreground: hsl(0, 0%, 98%);
-  --ring: hsl(240, 4.9%, 83.9%);
+  --ring: hsl(210, 80%, 60%);
   --radius: 0.5rem;
   
   /* Custom portfolio colors - dark mode */
-  --hero-gradient-from: hsl(240, 10%, 3.9%);
-  --hero-gradient-to: hsl(240, 3.7%, 15.9%);
-  --section-bg: hsl(240, 3.7%, 15.9%);
-  --skill-blue: hsl(207, 90%, 54%);
-  --skill-blue-light: hsl(207, 90%, 15%);
-  --skill-emerald: hsl(160, 84%, 39%);
-  --skill-emerald-light: hsl(160, 84%, 15%);
-  --skill-purple: hsl(262, 83%, 58%);
-  --skill-purple-light: hsl(262, 83%, 15%);
-  --skill-amber: hsl(43, 96%, 56%);
-  --skill-amber-light: hsl(43, 96%, 15%);
-  --skill-green: hsl(142, 71%, 45%);
-  --skill-green-light: hsl(142, 71%, 15%);
+  --hero-gradient-from: hsl(220, 15%, 10%);
+  --hero-gradient-to: hsl(220, 10%, 15%);
+  --section-bg: hsl(220, 10%, 15%);
+  --skill-blue: hsl(210, 80%, 60%);
+  --skill-blue-light: hsl(210, 80%, 18%);
+  --skill-teal: hsl(180, 70%, 50%);
+  --skill-teal-light: hsl(180, 70%, 18%);
+  --skill-purple: hsl(260, 70%, 60%);
+  --skill-purple-light: hsl(260, 70%, 18%);
+  --skill-orange: hsl(30, 80%, 60%);
+  --skill-orange-light: hsl(30, 80%, 18%);
+  --skill-green: hsl(140, 70%, 50%);
+  --skill-green-light: hsl(140, 70%, 18%);
 }
 
 @layer base {
@@ -106,9 +106,9 @@
     color: var(--skill-blue);
   }
   
-  .skill-tag-emerald {
-    background-color: var(--skill-emerald-light);
-    color: var(--skill-emerald);
+  .skill-tag-teal {
+    background-color: var(--skill-teal-light);
+    color: var(--skill-teal);
   }
   
   .skill-tag-purple {
@@ -116,9 +116,9 @@
     color: var(--skill-purple);
   }
   
-  .skill-tag-amber {
-    background-color: var(--skill-amber-light);
-    color: var(--skill-amber);
+  .skill-tag-orange {
+    background-color: var(--skill-orange-light);
+    color: var(--skill-orange);
   }
   
   .skill-tag-green {
